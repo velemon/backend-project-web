@@ -20,6 +20,7 @@ async function login() {
         })
     });
 
+
     // Hämta svaret från API:et
     const data = await res.json();
 
