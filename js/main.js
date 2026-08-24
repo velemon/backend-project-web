@@ -13,8 +13,8 @@ async function loadMenu() {
             <div class="card">
                 <h3>${item.name}</h3>
                 <p>${item.description}</p>
-                <p><b>${item.marinade}</b></p>
-                <p>${item.price} kr</p>
+                <p class="marinade">${item.marinade}</p>
+                <p class="price">${item.price} kr</p>            
             </div>
         `;
     });

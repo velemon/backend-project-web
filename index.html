@@ -1,3 +1,4 @@
+<!-- Startsida för Seoul Crunch KFC -->
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -6,29 +7,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <title>Seoul Crunch KFC</title>
+
 </head>
 
 <body>
+    <!-- Navigation -->
     <nav>
-        <h2>Seoul Crunch KFC</h2>
+        <h1>Seoul Crunch KFC</h1>
+        <p class="tagline"> SEOUL • STREET FOOD • NIGHT VIBES </p>
 
         <ul>
             <li><a href="index.html">Hem</a></li>
             <li><a href="#menu">Meny</a></li>
-            <li><a href="admin/login.html">Admin</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Välkommen till Seoul Crunch</h1>
-        <p>Krispig Korean Fried Chicken i olika marinader – alltid nyfriterad och smakrik.</p>
+    <!-- Hero Sektion -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Korean Fried Chicken Done Right</h2>
+
+            <p>
+                Krispig kyckling, unika marinader och smaker inspirerade
+                från Seoul.
+            </p>
+
+            <!-- Knapp som länkar till menyn -->
+            <a href="#menu-section" class="btn">
+                Se Menyn
+            </a>
+        </div>
     </header>
 
-    <section>
-        <h2>Meny</h2>
+    <!-- Om oss-sektion -->
+    <section id="about" class="about">
+        <h2>Om Seoul Crunch</h2>
+
+        <p>
+            Seoul Crunch är en modern korean fried chicken-restaurang
+            som serverar krispig kyckling med autentiska koreanska
+            smaker i en trendig och avslappnad miljö.
+        </p>
+    </section>
+
+    <!-- Meny-sektion -->
+    <section id="menu-section">
+        <h2>Vår Meny</h2>
+
         <div id="menu"></div>
     </section>
+    <footer id="contact">
+
+        <div class="footer-grid">
+
+            <div>
+                <h3>Seoul Crunch</h3>
+
+                <p>
+                    Seoul Crunch serverar Korean Fried Chicken med inspiration från
+                    Seouls nattliv, street food-marknader och moderna matkultur.
+                    Våra signaturmarinader kombinerar koreanska smaker med krispig
+                    kyckling för en unik matupplevelse.
+                </p>
+            </div>
+
+            <div>
+                <h3>Öppettider</h3>
+
+                <p>Mån–Tor: 11:00–21:00</p>
+                <p>Fre–Lör: 11:00–23:00</p>
+                <p>Sön: 12:00–20:00</p>
+            </div>
+
+            <div>
+                <h3>Kontakt</h3>
+
+                <p>Neon Street 12</p>
+                <p>111 22 Stockholm</p>
+                <p>08-555 123 45</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Seoul Crunch
+        </div>
+
+    </footer>
 
     <script src="js/api.js"></script>
     <script src="js/main.js"></script>
