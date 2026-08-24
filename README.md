@@ -24,7 +24,6 @@ Frontend innehåller även ett separat administrationsgränssnitt där personal 
 
 Frontend kommunicerar med REST-webbtjänsten som körs lokalt på:
 
-```text
 http://localhost:3000
 
 Menydata hämtas från:
