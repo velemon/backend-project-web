@@ -36,6 +36,8 @@ http://localhost:3000/api/auth/login
 
 Backend måste vara igång för att frontendens dynamiska meny och administration ska fungera.
 
+---
+
 ## Publik webbplats
 
 Den publika webbplatsen presenterar Seoul Crunch och innehåller bland annat:
@@ -50,6 +52,8 @@ Den publika webbplatsen presenterar Seoul Crunch och innehåller bland annat:
 
 Menyinformationen skrivs inte direkt i HTML-koden utan hämtas från REST API:et.
 
+---
+
 ## Dynamisk meny
 
 Frontend använder JavaScript och Fetch API för att hämta menydata från backend.
@@ -59,6 +63,8 @@ Exempel:
 fetch("http://localhost:3000/api/menu")
 
 API:ets JSON-svar används sedan för att skapa menyinnehållet dynamiskt på sidan. Det innebär att ändringar som görs av administratören i databasen kan visas på den publika webbplatsen utan att HTML-koden behöver ändras manuellt.
+
+---
 
 ## Administrationsgränssnitt
 
@@ -75,6 +81,8 @@ Administratören kan:
 
 Administrativa ändringar skickas till REST API:et med Fetch API.
 
+---
+
 ## JWT
 
 Vid inloggning skickas användarnamn och lösenord till backend:
@@ -87,6 +95,8 @@ Authorization: Bearer DIN_TOKEN
 
 Det gör att endast inloggade administratörer kan skapa, ändra och radera maträtter.
 
+---
+
 ## Responsiv design
 
 Webbplatsen är byggd med responsiv CSS så att den fungerar på olika skärmstorlekar, exempelvis:
@@ -97,6 +107,8 @@ Webbplatsen är byggd med responsiv CSS så att den fungerar på olika skärmsto
 * Stationär dator
 
 Designen använder en modern cyberpunk-inspirerad grafisk profil som riktar sig mot en yngre målgrupp som är intresserad av asiatisk mat och kultur.
+
+---
 
 ## Installation
 
